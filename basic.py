@@ -1,5 +1,9 @@
 # Basic Calculator
 
+#works on integers
+def add(x,y):
+    return int(x) + int(y)
+
 print("Please enter your operation")
 print("1. Addition")
 print("2. Subtraction")
@@ -15,7 +19,7 @@ while True:
     first = input("Enter first number: ")
     second = input("Enter second number: ")
     if choice == "1":
-        print("Not Implemented yet")
+        print("Answer: " add(first,second))
     if choice == "2":
         print("Not Implemented yet")
     if choice == "3":
