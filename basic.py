@@ -7,6 +7,9 @@ def add(x,y):
 def subtract(x,y):
     return int(x) + int(y)
 
+def divide(x,y):
+    return int(x)/int(y)
+
 print("Please enter your operation")
 print("1. Addition")
 print("2. Subtraction")
@@ -28,4 +31,4 @@ while True:
     if choice == "3":
         print("Not Implemented yet")
     if choice == "4":
-        print("Not Implemented yet")
+        print("Answer: ", divide(first,second))
