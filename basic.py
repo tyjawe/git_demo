@@ -10,6 +10,9 @@ def subtract(x,y):
 def multiply(x,y):
     return int(x) * int(y)
 
+def divide(x,y):
+    return int(x)/int(y)
+
 print("Please enter your operation")
 print("1. Addition")
 print("2. Subtraction")
@@ -31,4 +34,4 @@ while True:
     if choice == "3":
         print("Answer: ", multiply(first,second))
     if choice == "4":
-        print("Not Implemented yet")
+        print("Answer: ", divide(first,second))
