@@ -7,6 +7,9 @@ def add(x,y):
 def subtract(x,y):
     return int(x) + int(y)
 
+def multiply(x,y):
+    return int(x) * int(y)
+
 def divide(x,y):
     return int(x)/int(y)
 
@@ -25,10 +28,10 @@ while True:
     first = input("Enter first number: ")
     second = input("Enter second number: ")
     if choice == "1":
-        print("Answer: " add(first,second))
+        print("Answer: ", add(first,second))
     if choice == "2":
-        print("Answer: " subtract(first,second))
+        print("Answer: ", subtract(first,second))
     if choice == "3":
-        print("Not Implemented yet")
+        print("Answer: ", multiply(first,second))
     if choice == "4":
         print("Answer: ", divide(first,second))
