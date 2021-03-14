@@ -12,6 +12,8 @@ def multiply(x,y):
 
 def expo(x,y):
     return int(x)**int(y)
+def divide(x,y):
+    return int(x)/int(y)
 
 print("Please enter your operation")
 print("1. Addition")
@@ -34,7 +36,8 @@ while True:
     if choice == "3":
         print("Answer: ", multiply(first,second))
     if choice == "4":
-        print("Not Implemented yet")
+        print("Answer: ", divide(first,second))
     if choice == "5":
         print("Answer: ", expo(first,second))
     
+        
