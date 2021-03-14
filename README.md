@@ -4,6 +4,6 @@ This simple program takes in two numbers and performs one of four basic operatio
 
 ## Implementation plan:
 - [X] Add
-- [ ] Subtract
+- [X] Subtract
 - [ ] Multiplication
 - [ ] Division
