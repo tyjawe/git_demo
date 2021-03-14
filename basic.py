@@ -10,6 +10,8 @@ def subtract(x,y):
 def multiply(x,y):
     return int(x) * int(y)
 
+def expo(x,y):
+    return int(x)**int(y)
 def divide(x,y):
     return int(x)/int(y)
 
@@ -22,7 +24,7 @@ print("Q Quit")
 
 while True:
     # Take input from the user
-    choice = input("Enter choice(1/2/3/4/Q): ")
+    choice = input("Enter choice(1/2/3/4/5/Q): ")
     if choice.lower() == "q":
         break
     first = input("Enter first number: ")
@@ -35,3 +37,7 @@ while True:
         print("Answer: ", multiply(first,second))
     if choice == "4":
         print("Answer: ", divide(first,second))
+    if choice == "5":
+        print("Answer: ", expo(first,second))
+    
+        
