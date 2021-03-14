@@ -1,5 +1,8 @@
 # Basic Calculator
 
+def add(x,y):
+    return int(x) + int(y)
+
 print("Please enter your operation")
 print("1. Addition")
 print("2. Subtraction")
