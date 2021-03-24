@@ -1,19 +1,8 @@
 # Basic Calculator
 
-#works on integers
-def add(x,y):
-    return int(x) + int(y)
-
-def subtract(x,y):
-    return int(x) + int(y)
-
-def multiply(x,y):
-    return int(x) * int(y)
-
-def expo(x,y):
-    return int(x)**int(y)
-def divide(x,y):
-    return int(x)/int(y)
+###################
+#Functions Go Here#
+###################
 
 print("Please enter your operation")
 print("1. Addition")
@@ -24,20 +13,18 @@ print("Q Quit")
 
 while True:
     # Take input from the user
-    choice = input("Enter choice(1/2/3/4/5/Q): ")
+    choice = input("Enter choice(1/2/3/4/Q): ")
     if choice.lower() == "q":
         break
     first = input("Enter first number: ")
     second = input("Enter second number: ")
     if choice == "1":
-        print("Answer: ", add(first,second))
+        print("Addition Not Implemented")
     if choice == "2":
-        print("Answer: ", subtract(first,second))
+        print("Subtraction Not Implemented")
     if choice == "3":
-        print("Answer: ", multiply(first,second))
+        print("Multiplication Not Implemented")
     if choice == "4":
-        print("Answer: ", divide(first,second))
-    if choice == "5":
-        print("Answer: ", expo(first,second))
+        print("Division Not Implemented")
     
         
